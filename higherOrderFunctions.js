@@ -12,3 +12,4 @@ function abcd(ele){
 abcd(function(){
     console.log('callback')
 })()
+
