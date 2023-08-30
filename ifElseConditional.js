@@ -2,7 +2,7 @@
 
 // also we check the truthy and falsy value
 
-if(null){
+if(-1){
     console.log('if')
 }else{
     console.log('else')
