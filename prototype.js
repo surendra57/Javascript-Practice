@@ -8,3 +8,22 @@ let obj ={
 }
 
 let a=  obj.hasOwnProperty('name')//true
+
+// prototypal inheritance 
+
+// passing the parents properties to childern with help of proto 
+//  a fucntion use like or treat like object 
+
+function hello(){
+    console.log("hello")
+}
+
+console.log(hello.prototype)
+hello.prototype.name="Warrior"
+hello.prototype.personality="Never defeated"
+hello.prototype.about=()=>{
+    console.log("very disipline")
+}
+
+hello.prototype.about()
+hello.__proto=obj
