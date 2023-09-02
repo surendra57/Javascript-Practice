@@ -9,3 +9,10 @@ function details(){
 }
 
 const a1=new details()
+
+details.prototype.city="jaipur"
+
+console.log(a1.city)
+
+console.log(a1.age)
+
